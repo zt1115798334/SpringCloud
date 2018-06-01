@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      name: cn-qx-config
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        service-id: spring-cloud-bus-server  #buse-server的名称
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

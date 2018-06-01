@@ -10,7 +10,9 @@
         <module name="config-server" />
         <module name="eureka-server" />
         <module name="service-config-client" />
+        <module name="service-config-client-bus" />
         <module name="service-config-server" />
+        <module name="service-config-server-bus" />
         <module name="service-feign" />
         <module name="service-feign-hystrix" />
         <module name="service-hi" />
@@ -25,7 +27,9 @@
       <module name="demo" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="service-config-client" target="1.8" />
+      <module name="service-config-client-bus" target="1.8" />
       <module name="service-config-server" target="1.8" />
+      <module name="service-config-server-bus" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-feign-hystrix" target="1.8" />
       <module name="service-hi" target="1.8" />
