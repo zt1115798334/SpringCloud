@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="eureka-server" />
+        <module name="service-config-client" />
+        <module name="service-config-server" />
         <module name="service-feign" />
         <module name="service-feign-hystrix" />
         <module name="service-hi" />
@@ -16,8 +20,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="service-config-client" target="1.8" />
+      <module name="service-config-server" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-feign-hystrix" target="1.8" />
       <module name="service-hi" target="1.8" />
