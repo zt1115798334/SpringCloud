@@ -17,7 +17,7 @@ public class HelloService {
 
     public String hiService(String name) {
         ServiceInstance instance = client.choose("service-hi");
-        String url = "http://" + instance.getHost() + ":" + instance.getPort() + "/hello/?name=" + name;
+        String url = "http://" + instance.getHost() + ":" + instance.getPort() + "/hi/?name=" + name;
         return restTemplate.getForObject(url, String.class);
     }
 }
