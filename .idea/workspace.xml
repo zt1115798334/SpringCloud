@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6094f891-f7b9-4cd4-b352-8014512ac49d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/service/ScheduleServiceHi.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/service/ScheduleServiceHi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/service-hi/target/" />
@@ -23,6 +26,7 @@
     <ignored path="$PROJECT_DIR$/eureka-server-1/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server-3/target/" />
     <ignored path="$PROJECT_DIR$/service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/service-hystrix-dashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,29 +39,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServiceFeignApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/ServiceFeignApplication.java">
+      <file leaf-file-name="ServiceFeignHystrixApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/java/com/example/servicefeignhystrix/ServiceFeignHystrixApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduleServiceHi.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/service/ScheduleServiceHi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="196">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/web/HiController.java">
+        <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/java/com/example/servicefeignhystrix/web/HiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleServiceHi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/java/com/example/servicefeignhystrix/service/ScheduleServiceHi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleServiceHiHystric.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/java/com/example/servicefeignhystrix/service/ScheduleServiceHiHystric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hystrix-dashboard/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-528" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceHystrixDashboardApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-hystrix-dashboard/src/main/java/com/example/servicehystrixdashboard/ServiceHystrixDashboardApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-hystrix-dashboard/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -84,8 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/example/serviceribbon/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/ServiceFeignApplication.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/service/SchedualServiceHi.java" />
@@ -135,6 +176,8 @@
         <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/example/serviceconsumer/ServiceConsumerApplication.java" />
         <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/example/serviceconsumer/service/HelloService.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/service/ScheduleServiceHi.java" />
+        <option value="$PROJECT_DIR$/service-hystrix-dashboard/src/main/java/com/example/servicehystrixdashboard/ServiceHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/service-hystrix-dashboard/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -172,64 +215,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicefeign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicefeign" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehystrixdashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicefeign" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceHystrixDashboardApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -385,6 +417,10 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.servicehi.ServiceHiApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="ServiceHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.servicehystrixdashboard.ServiceHystrixDashboardApplication" />
+    </configuration>
     <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.serviceribbon.ServiceRibbonApplication" />
@@ -423,13 +459,14 @@
       <item itemvalue="Spring Boot.ServiceRibbonHystrixApplication" />
       <item itemvalue="Spring Boot.ServiceFeignHystrixApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
-      <item itemvalue="Spring Boot.ServiceConfigServerApplication" />
-      <item itemvalue="Spring Boot.ServiceConfigClientApplication" />
       <item itemvalue="Spring Boot.EurekaServer2Application" />
       <item itemvalue="Spring Boot.EurekaServer1Application" />
+      <item itemvalue="Spring Boot.ServiceConfigServerApplication" />
+      <item itemvalue="Spring Boot.ServiceConfigClientApplication" />
       <item itemvalue="Spring Boot.EurekaServer3Application" />
       <item itemvalue="JUnit.All in eureka-server" />
       <item itemvalue="Spring Boot.ServiceConsumerApplication" />
+      <item itemvalue="Spring Boot.ServiceHystrixDashboardApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -456,7 +493,9 @@
       <workItem from="1527757839008" duration="1795000" />
       <workItem from="1527817286369" duration="18844000" />
       <workItem from="1528095117178" duration="10000" />
-      <workItem from="1528180586397" duration="4713000" />
+      <workItem from="1528180586397" duration="6101000" />
+      <workItem from="1528265627590" duration="179000" />
+      <workItem from="1528272799774" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="zt">
       <created>1527759316943</created>
@@ -486,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528184637708</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="zt">
+      <created>1528185397252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528185397252</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -495,7 +541,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30281000" />
+    <option name="totallyTimeSpent" value="32202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -513,7 +559,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952926" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -523,7 +568,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3281027" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32952926" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2922252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30026808" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -531,17 +576,18 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952926" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281027" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32952926" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281027" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -549,24 +595,24 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32952926" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2922252" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2922252" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.34950072" />
     </layout-to-restore>
@@ -605,56 +651,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.2.RELEASE/spring-boot-actuator-2.0.2.RELEASE.jar!/org/springframework/boot/actuate/health/AbstractHealthIndicator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.0.RC2/spring-cloud-config-server-2.0.0.RC2.jar!/org/springframework/cloud/config/server/config/ConfigServerHealthIndicator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.0.RC2/spring-cloud-config-server-2.0.0.RC2.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="178" column="41" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.11.0.201803080745-r/org.eclipse.jgit-4.11.0.201803080745-r.jar!/org/eclipse/jgit/api/CloneCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/example/configserver/Test.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.11.0.201803080745-r/org.eclipse.jgit-4.11.0.201803080745-r.jar!/org/eclipse/jgit/transport/TransportHttp.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="598" selection-start-line="598" selection-end-line="598" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.0.RC2/spring-cloud-config-server-2.0.0.RC2.jar!/org/springframework/cloud/config/server/environment/HttpClientConfigurableHttpConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/example/configserver/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -870,9 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#582#583#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,10 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,6 +918,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/service/ScheduleServiceHi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/web/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -936,10 +932,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/example/servicefeign/service/ScheduleServiceHi.java">
+    <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/java/com/example/servicefeignhystrix/ServiceFeignHystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/java/com/example/servicefeignhystrix/web/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/java/com/example/servicefeignhystrix/service/ScheduleServiceHi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/java/com/example/servicefeignhystrix/service/ScheduleServiceHiHystric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hystrix-dashboard/src/main/java/com/example/servicehystrixdashboard/ServiceHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -995,7 +1034,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>service-consumer</last-edited>
+          <last-edited>service-hystrix-dashboard</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1008,7 +1047,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
