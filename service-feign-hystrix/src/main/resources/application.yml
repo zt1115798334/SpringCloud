@@ -10,3 +10,8 @@ spring:
 hystrix:
   metrics:
     enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
