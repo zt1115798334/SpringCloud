@@ -1,0 +1,15 @@
+server:
+  port: 8790
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: service-ribbon-hystrix-turbine
+#management:
+#  port: 8081
+turbine:
+  app-config: service-ribbon
+  cluster-name-expression: new String("default")
+  combine-host-port: true

@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/eureka-server-3/pom.xml" />
         <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/service-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix-turbine/pom.xml" />
       </list>
     </option>
   </component>
