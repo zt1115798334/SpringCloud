@@ -10,8 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-server-3/eureka-server-3.iml" filepath="$PROJECT_DIR$/eureka-server-3/eureka-server-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config-client/service-config-client.iml" filepath="$PROJECT_DIR$/service-config-client/service-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config-client-bus/service-config-client-bus.iml" filepath="$PROJECT_DIR$/service-config-client-bus/service-config-client-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-config-client-git-bus/service-config-client-git-bus.iml" filepath="$PROJECT_DIR$/service-config-client-git-bus/service-config-client-git-bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config-server/service-config-server.iml" filepath="$PROJECT_DIR$/service-config-server/service-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config-server-bus/service-config-server-bus.iml" filepath="$PROJECT_DIR$/service-config-server-bus/service-config-server-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-config-server-git/service-config-server-git.iml" filepath="$PROJECT_DIR$/service-config-server-git/service-config-server-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-config-server-git-bus/service-config-server-git-bus.iml" filepath="$PROJECT_DIR$/service-config-server-git-bus/service-config-server-git-bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-consumer/service-consumer.iml" filepath="$PROJECT_DIR$/service-consumer/service-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" filepath="$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" />
@@ -19,7 +22,9 @@
       <module fileurl="file://$PROJECT_DIR$/service-hystrix-dashboard/service-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/service-hystrix-dashboard/service-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix/service-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix/service-ribbon-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix-rabbitmq/service-ribbon-hystrix-rabbitmq.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix-rabbitmq/service-ribbon-hystrix-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine/service-ribbon-hystrix-turbine.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix-turbine/service-ribbon-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine-stream-rabbitmq/service-ribbon-hystrix-turbine-stream-rabbitmq.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix-turbine-stream-rabbitmq/service-ribbon-hystrix-turbine-stream-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
     </modules>
   </component>

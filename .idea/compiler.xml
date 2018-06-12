@@ -14,8 +14,11 @@
         <module name="eureka-server-3" />
         <module name="service-config-client" />
         <module name="service-config-client-bus" />
+        <module name="service-config-client-git-bus" />
         <module name="service-config-server" />
         <module name="service-config-server-bus" />
+        <module name="service-config-server-git" />
+        <module name="service-config-server-git-bus" />
         <module name="service-consumer" />
         <module name="service-feign" />
         <module name="service-feign-hystrix" />
@@ -23,7 +26,9 @@
         <module name="service-hystrix-dashboard" />
         <module name="service-ribbon" />
         <module name="service-ribbon-hystrix" />
+        <module name="service-ribbon-hystrix-rabbitmq" />
         <module name="service-ribbon-hystrix-turbine" />
+        <module name="service-ribbon-hystrix-turbine-stream-rabbitmq" />
         <module name="service-zuul" />
       </profile>
     </annotationProcessing>
@@ -37,8 +42,11 @@
       <module name="eureka-server-3" target="1.8" />
       <module name="service-config-client" target="1.8" />
       <module name="service-config-client-bus" target="1.8" />
+      <module name="service-config-client-git-bus" target="1.8" />
       <module name="service-config-server" target="1.8" />
       <module name="service-config-server-bus" target="1.8" />
+      <module name="service-config-server-git" target="1.8" />
+      <module name="service-config-server-git-bus" target="1.8" />
       <module name="service-consumer" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-feign-hystrix" target="1.8" />
@@ -46,7 +54,9 @@
       <module name="service-hystrix-dashboard" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="service-ribbon-hystrix" target="1.8" />
+      <module name="service-ribbon-hystrix-rabbitmq" target="1.8" />
       <module name="service-ribbon-hystrix-turbine" target="1.8" />
+      <module name="service-ribbon-hystrix-turbine-stream-rabbitmq" target="1.8" />
       <module name="service-turbine" target="1.8" />
       <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>

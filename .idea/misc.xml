@@ -22,6 +22,11 @@
         <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/service-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix-turbine-stream-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/service-config-server-git/pom.xml" />
+        <option value="$PROJECT_DIR$/service-config-server-git-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/service-config-client-git-bus/pom.xml" />
       </list>
     </option>
   </component>

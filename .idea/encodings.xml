@@ -10,8 +10,11 @@
     <file url="file://$PROJECT_DIR$/eureka-server-3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-config-client-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-config-client-git-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-config-server-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-config-server-git" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-config-server-git-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-feign-hystrix" charset="UTF-8" />
@@ -19,7 +22,9 @@
     <file url="file://$PROJECT_DIR$/service-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-ribbon-hystrix-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine-stream-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zuul" charset="UTF-8" />
   </component>
