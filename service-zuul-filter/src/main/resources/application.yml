@@ -1,9 +1,9 @@
 server:
-  port: 8901
+  port: 8903
 spring:
   application:
-    name: service-zuul
+    name: service-zuul-filter
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://localhost:8761/eureka/

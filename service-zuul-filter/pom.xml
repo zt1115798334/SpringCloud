@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>service-zuul</artifactId>
+    <artifactId>service-zuul-filter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>service-zuul</name>
+    <name>service-zuul-filter</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
